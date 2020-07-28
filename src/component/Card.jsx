@@ -4,13 +4,17 @@ class Card extends Component {
   state = {};
   render() {
     return (
-      <div className="card better">
-        <div id="menu_css">
-          <div>
-            {this.props.ContentObject.title}
-            {this.props.ContentObject.body}
-          </div>
+      <div>
+        <div class="container">
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
         </div>
+        <h1>Coming Soon</h1>
       </div>
     );
   }
